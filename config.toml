@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "http://sanimej-zola.netlify.app"
+
+title = "Santhosh Manohar"
+description = "Bit trails from the work and life journey"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+theme = "butler"
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
+keywords = "web, technology, docker, blog, computer engineering, linux, go"
+
+[extra.author]
+name = "Santhsoh Manohar"
+
+twitter.username = "1sanimej"
+twitter.link = "https://twitter.com/1sanimej"
+
+[extra.disqus] 
+shortname = "sanimej"
+
+[extra.analytics]
+code = "personal"
