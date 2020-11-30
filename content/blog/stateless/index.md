@@ -15,7 +15,7 @@ tags="iptables, firewall, netfilter,"
 A stateful firewall maintains the state of connections it has seen. The implication of this is an explicit rule has to be created only for the first packet in the flow. The return packet can be allowed based on the state maintained.
 
 <figure style="width:75%;margin:auto;">
-    {{ resize_image(path="./stateful.gif") }}
+    {{ resize_image(path="./e37cf7795695af5ab9f8f4387d557bb7.png") }}
 <figcaption style="text-align:center;">Fig 1: Network Architecture</figcaption>
 <br/>
 </figure>
