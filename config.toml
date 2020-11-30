@@ -21,7 +21,7 @@ build_search_index = false
 keywords = "web, technology, docker, blog, computer engineering, linux, go"
 
 [extra.author]
-name = "Santhsoh Manohar"
+name = "Santhosh Manohar"
 
 twitter.username = "1sanimej"
 twitter.link = "https://twitter.com/1sanimej"

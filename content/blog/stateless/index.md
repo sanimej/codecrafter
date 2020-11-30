@@ -8,19 +8,20 @@ draft=false
 tags="iptables, firewall, netfilter,"
 +++
 
-## Statefull vs Stateless firewall
+## Stateful vs Stateless firewall
 
-A statefull firewall maintains the state of connections it has seen. The implication of this is an explicit rule has to be created only for the first packet in the flow. The return packet can be allowed based on the state maintained.
+<!-- more -->
+
+A stateful firewall maintains the state of connections it has seen. The implication of this is an explicit rule has to be created only for the first packet in the flow. The return packet can be allowed based on the state maintained.
 
 <figure style="width:75%;margin:auto;">
-    {{ resize_image(path="statefull.gif") }}
+    {{ resize_image(path="./stateful.gif") }}
 <figcaption style="text-align:center;">Fig 1: Network Architecture</figcaption>
 <br/>
 </figure>
 
-In Linux firewall iptables can be configured to be statefull or stateless
+In Linux firewall iptables can be configured to be stateful or stateless
 
-<!-- more -->
 
 ## When is a stateless firewall useful
 
