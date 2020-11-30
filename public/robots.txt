@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sanimej.netlify.app/sitemap.xml

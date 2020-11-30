@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://sanimej-zola.netlify.app"
+base_url = "https://sanimej.netlify.app"
 
 title = "Santhosh Manohar"
 description = "Bit trails from the work and life journey"
